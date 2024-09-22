@@ -8,23 +8,26 @@ export const Report = () => {
 
   return (
     <main className="p-5">
-      <h1 className="text-xl font-medium">Preview Ethics Report</h1>
-
-      <Preview />
       <div className="w-full flex items-center justify-between my-5">
-        <ActionButton text="Go Back" handleClick={() => navigate("/")} />
+        <ActionButton
+          text="Go Back"
+          handleClick={() => navigate("/questions")}
+        />
         <ActionButton
           text="Download"
           handleClick={() => alert("Will download report as PDF document")}
         />
       </div>
+      <h1 className="text-xl font-medium">Preview Ethics Report</h1>
+
+      <Preview />
     </main>
   );
 };
 
 export const Preview = () => {
   return (
-    <div className="bg-gray-200 text-black h-[60vh] overflow-y-auto rounded-md my-5 p-5">
+    <div className="bg-gray-200 text-black h-[70vh] overflow-y-auto rounded-md my-5 p-5">
       <ReactMarkdown className="prose" id="divToPrint">
         {exampleReport}
       </ReactMarkdown>

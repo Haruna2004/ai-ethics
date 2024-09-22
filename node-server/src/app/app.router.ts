@@ -1,8 +1,9 @@
 import { Router } from "express";
+import { aiRouter } from "../services/openai/route";
 
 export const appRouter = Router();
 
-// appRouter.use("/vm", vmRouter)
+appRouter.use("/ai", aiRouter);
 
 appRouter.get("/health", (_, res) => {
   res.status(200).json({
