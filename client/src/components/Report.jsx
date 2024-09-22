@@ -15,7 +15,7 @@ export const Report = () => {
         <ActionButton text="Go Back" handleClick={() => navigate("/")} />
         <ActionButton
           text="Download"
-          handleClick={() => console.log("hello")}
+          handleClick={() => alert("Will download report as PDF document")}
         />
       </div>
     </main>

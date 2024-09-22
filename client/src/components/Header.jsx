@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="flex flex-col p-5 border shadow-sm">
       <h1
-        className="text-xl font-semibold cursor-pointer"
+        className="text-xl font-semibold  cursor-pointer"
         onClick={() => navigate("/")}
       >
         AI Ethics
