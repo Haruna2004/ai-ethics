@@ -27,7 +27,7 @@ export const Report = () => {
 
 export const Preview = () => {
   return (
-    <div className="bg-gray-200 text-black h-[70vh] overflow-y-auto rounded-md my-5 p-5">
+    <div className="bg-gray-200 text-black  rounded-md my-5 p-5">
       <ReactMarkdown className="prose" id="divToPrint">
         {exampleReport}
       </ReactMarkdown>
