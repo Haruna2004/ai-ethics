@@ -7,7 +7,7 @@ export const CTAButton = ({ text }) => {
   return (
     <button
       className="bg-black/95 hover:bg-black/95 text-white font-medium px-5 py-2 rounded-md"
-      onClick={() => navigate("/questions")}
+      onClick={() => navigate("/ai-ethics")}
     >
       {text}
     </button>

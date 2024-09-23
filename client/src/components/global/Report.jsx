@@ -1,4 +1,4 @@
-import { exampleReport } from "../constants/testRep";
+import { exampleReport } from "../../constants/testRep";
 import { ActionButton } from "./action-button";
 import ReactMarkdown from "react-markdown";
 import { useNavigate } from "react-router-dom";

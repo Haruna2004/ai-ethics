@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import TextareaAutosize from "react-textarea-autosize";
-import { survey_questions } from "../constants";
+import { survey_questions } from "../../constants";
 import { useState } from "react";
 import { ActionButton } from "./action-button";
 import { useNavigate } from "react-router-dom";
