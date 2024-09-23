@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -11,11 +11,11 @@ const Header = () => {
         Alafai
       </h1>
 
-      <div className="md:flex gap-3 items-center hidden">
+      {/* <div className="md:flex gap-3 items-center hidden">
         <Link to="#features">Features</Link>
         <Link to="#features">Products</Link>
         <Link to="#features">Contacts</Link>
-      </div>
+      </div> */}
     </header>
   );
 };
