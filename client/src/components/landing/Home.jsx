@@ -14,7 +14,7 @@ export const Home = () => {
         <Features />
 
         {/* <Product /> */}
-        <hr />
+        <hr className="border w-full" />
         <Footer />
       </main>
     </>
